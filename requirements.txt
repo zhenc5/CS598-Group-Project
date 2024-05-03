@@ -1,0 +1,12 @@
+numpy
+pandas
+nltk
+spacy
+gensim
+keras==2.10.0
+tensorflow
+scikit-learn
+tables
+scipy==1.10.1
+tensorFlow-gpu==2.10
+https://huggingface.co/kormilitzin/en_core_med7_lg/resolve/main/en_core_med7_lg-any-py3-none-any.whl

@@ -1,7 +1,9 @@
 # CS-598 DL4H Reproducibility Project: "Improving Clinical Outcome Predictions Using Convolution Over Medical Entities with Multimodal Learning"
 
 This repository contains the code for the reproducibility of the paper by Bardak et al.
+
 [Link to paper](https://arxiv.org/abs/2011.12349)
+
 Source code of the paper is found in a [Github repo](https://github.com/tanlab/ConvolutionMedicalNer)
 
 ## Environment Setup
@@ -25,20 +27,20 @@ List of dependent packages needed:
 
 ### Step 1. Create environment in Anaconda
     
-    1. Clone repo to local environment
+1. Clone repo to local environment
 
-    ```
-    git clone https://github.com/zhenc5/CS598-Group-Project.git`
-    cd CS598-Group-Project
-    ```
+```
+git clone https://github.com/zhenc5/CS598-Group-Project.git`
+cd CS598-Group-Project
+```
 
-    2. Create and active new conda environment and install packages
+2. Create and active new conda environment and install packages
 
-    ```
-    conda create --name DLH_project python==3.10.12
-    conda activate DLH_project
-    pip install -r requirements.txt
-    ```
+```
+conda create --name DLH_project python==3.10.12
+conda activate DLH_project
+pip install -r requirements.txt
+```
 
 ### Step 2. Download data
 

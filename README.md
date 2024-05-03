@@ -26,22 +26,26 @@ List of dependent packages needed:
 ### Step 1. Create environment in Anaconda
     
     1. Clone repo to local environment
+
     ```
     git clone https://github.com/zhenc5/CS598-Group-Project.git`
     cd CS598-Group-Project
     ```
 
     2. Create and active new conda environment and install packages
+
     ```
     conda create --name DLH_project python==3.10.12
     conda activate DLH_project
     pip install -r requirements.txt
     ```
+
 ### Step 2. Download data
 
     1. Request access to [MIMIC-III v1.4](https://physionet.org/content/mimiciii/1.4/) dataset. (May take several days as it involves HIPAA certification)
 
     2. Once access is approved, download these 3 data files from the [MIMIC-III v1.4](https://physionet.org/content/mimiciii/1.4/) dataset and place in the `data` folder.
+
         - `ADMISSIONS.csv`
         - `NOTEEVENTS.csv`
         - `ICUSTAYS.csv`
@@ -51,6 +55,7 @@ List of dependent packages needed:
     4. Download the pre-trained [Word2Vec](https://github.com/kexinhuang12345/clinicalBERT) and [FastText](https://drive.google.com/drive/folders/1bcR6ThMEPhguU9T4qPcPaZJ3GQzhLKlz?usp=sharing) embeddings and place in the `embeddings` folder
 
 ### Step 3. Run Jupyter notebooks
+
     1. Run `01-Extract-Timeseries-Features.ipynb` to extract the first 24 hours of time-series features from the MIMIC-III Extract raw data
 
     2. Run `02+03-Preprocessing-Clinical-Notes.ipynb` to select the clinical notes based on criteria and to preprocess them.

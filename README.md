@@ -77,9 +77,8 @@ pip install -r requirements.txt
 
 ## Results
 
-The table below presents our reproducibility findings alongside the paper's results.
-
-
+The table below presents our reproducibility findings in a similar format to the paper's results.
+![BaselineResults](https://github.com/zhenc5/CS598-Group-Project/blob/main/images/Baseline%20Result.png?raw=true)
 
 ## References
 - Download the MIMIC-III dataset via https://mimic.physionet.org/
